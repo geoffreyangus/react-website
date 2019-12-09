@@ -11,27 +11,40 @@ export default class HomePage extends Component {
     }
 
     componentDidMount() {
-        fetch('https://raw.githubusercontent.com/geoffreyangus/website/master/data/home.json')
+        fetch('https://raw.githubusercontent.com/geoffreyangus/react-website/master/data/home.json')
             .then(res => res.json())
             .then(res => this.setState({ data: res }));
     }
 
     render() {
         const { data } = this.state
-        data_intro = data['introduction']
-        data_projects = data['projects']
-        data_teaching = data['teaching']
-        return (
-            <div id="home">
-                {/* <div id="navbar-space"></div> */}
-                <NavBar />
-                <div id="wrapper">
-                    <Introduction text={data_intro['description']} image={data_intro['image']}/>
-                    <Section sectionType="Projects" data={data_projects}/>
-                    <Section sectionType="Teaching" data={data_teaching}/>
+        if (data != null) {
+            console.log(data)
+            const data_intro = data['introduction']
+            const data_projects = data['projects']
+            const data_teaching = data['teaching']
+            return (
+                <div id="home">
+                    {/* <div id="navbar-space"></div> */}
+                    <NavBar />
+                    <div id="wrapper">
+                        <Introduction text={data_intro['description']} image={data_intro['image']} />
+                        <Section sectionType="Projects" data={data_projects} />
+                        <Section sectionType="Teaching" data={data_teaching} />
+                    </div>
                 </div>
-            </div>
-        )
+            )
+        }
+        else {
+            return (
+                <div id="home">
+                    <NavBar />
+                    <div id="wrapper">
+                    </div>
+                </div>
+            )
+        }
+
     }
 }
 

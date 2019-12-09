@@ -74,17 +74,59 @@
         {
             "title": "MD+ML",
             "dates": "2019-",
-            "description": "description"
+            "description": "description",
+            "resources": [
+                {
+                    "name": "Website",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Blog",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Article",
+                    "link": "www.cnn.com"
+                }
+            ]
         },
         {
             "title": "MD+ML",
             "dates": "2019-",
-            "description": "description"
+            "description": "description",
+            "resources": [
+                {
+                    "name": "Website",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Blog",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Article",
+                    "link": "www.cnn.com"
+                }
+            ]
         },
         {
             "title": "MD+ML",
             "dates": "2019-",
-            "description": "description"
+            "description": "description",
+            "resources": [
+                {
+                    "name": "Website",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Blog",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Article",
+                    "link": "www.cnn.com"
+                }
+            ]
         }
     ]
 }
