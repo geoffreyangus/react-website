@@ -1,0 +1,90 @@
+{
+    "introduction": [
+        {
+            "description": "Test test test test test test",
+            "image": "https://www.petmd.com/sites/default/files/Acute-Dog-Diarrhea-47066074.jpg"
+        }
+    ],
+    "projects": [
+        {
+            "title": "test",
+            "authors": "Geoffrey Angus",
+            "publication": "In submission, 2019" ,
+            "description": "description",
+            "image": "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg",
+            "resources": [
+                {
+                    "name": "Code",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Paper",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Poster",
+                    "link": "www.cnn.com"
+                }
+            ]
+        },
+        {
+            "title": "test",
+            "authors": "Geoffrey Angus",
+            "publication": "In submission, 2019",
+            "description": "description",
+            "image": "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg",
+            "resources": [
+                {
+                    "name": "Code",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Paper",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Poster",
+                    "link": "www.cnn.com"
+                }
+            ]
+        },
+        {
+            "title": "test",
+            "authors": "Geoffrey Angus",
+            "publication": "In submission, 2019",
+            "description": "description",
+            "image": "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg",
+            "resources": [
+                {
+                    "name": "Code",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Paper",
+                    "link": "www.cnn.com"
+                },
+                {
+                    "name": "Poster",
+                    "link": "www.cnn.com"
+                }
+            ]
+        }
+    ],
+    "teaching": [
+        {
+            "title": "MD+ML",
+            "dates": "2019-",
+            "description": "description"
+        },
+        {
+            "title": "MD+ML",
+            "dates": "2019-",
+            "description": "description"
+        },
+        {
+            "title": "MD+ML",
+            "dates": "2019-",
+            "description": "description"
+        }
+    ]
+}

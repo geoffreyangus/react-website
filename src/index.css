@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: lightgray;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex;
+  align-items: stretch;
+}
+
+#navbar-space, #navbar {
+    min-width: 60px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  padding: 0px;
+  margin: 10px 5px;
+}
+
+.icon:first-of-type {
+  margin: 0px 5px 10px 5px;
+}
+
+#wrapper {
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+#intro, .card-section {
+  margin-top: 20px;
+}
+
+#intro {
+  align-self: center;
+  width: 1200px;
+  height: 700px;
+  background-color: lightgreen;
+}
+
+#intro .intro-card {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+#intro .intro-side {
+  margin: 20px;
+  background: darkkhaki;
+}
+
+#intro img {
+  margin: 10px;
+  width: 300px;
+}
+
+.card-section {
+  align-self: center;
+  margin: inherit auto;
+}
+
+.card-section:last-of-type {
+  margin-bottom: 225px;
+}
+
+.cards-title {
+  width: 100%;
+  text-align: left;
+}
+
+.card-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  display: inline-block;
+  font-size: 12px;
+  width: 150px;
+  height: 50px;
+  margin: 15px 25px;
+  box-sizing: border-box;
+  text-align: center;
+
+  border: lightgreen solid;
+  background-color: lightcoral;
+  padding: 150px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) { #intro, .card-section { width: 800px; } }
+@media screen and (min-width: 400px) and (max-width: 800px) { #intro, .card-section { width: 400px; } }
